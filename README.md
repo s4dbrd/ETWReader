@@ -29,7 +29,7 @@ To delete an existing trace session, add the -d flag:
 .\ETWReader.exe {SESSION_NAME} {GUID} -d
 ```
 
-To connect to the Microsoft-Windows-Kernel-Process provider and start a session, use the following command:
+To connect to the `Microsoft-Windows-Kernel-Process` provider and start a session, use the following command:
 
 ```
 .\ETWReader.exe GlobalSession "{22fb2cd6-0e7b-422b-a0c7-2fad1fd0e716}"
